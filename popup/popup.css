@@ -1,0 +1,25 @@
+button {
+    min-width: 90px;
+    min-height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    width: 200px;
+}
+hr{
+    width: 100%;
+    border: none;
+    border-top: 1px solid #000000;
+    padding-bottom: 10px;
+}
