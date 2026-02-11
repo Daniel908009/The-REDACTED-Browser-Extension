@@ -1,5 +1,5 @@
 # The ██████ Browser Extension
-Chromium browser extension that censors random words and images. The extension is purely graphical (The black boxes on images will not be saved if you decide to download an image, similarily censored text can still be seen if you select it)
+Chromium browser extension that censors random words and images. The extension is purely graphical (The black boxes on images will not be saved if you decide to download an image, similarly censored text can still be seen if you select it)
 
 ## Features
 - TreeWalker that finds all the images and texts
