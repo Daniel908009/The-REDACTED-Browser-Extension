@@ -16,6 +16,7 @@ toggleButton.addEventListener('click', () => {
                         target: { tabId: tab.id },
                         files: ['content/content.js']
                     });
+                    await new Promise(resolve => setTimeout(resolve, 100));
                     try {
                         await chrome.tabs.sendMessage(tab.id, { action: 'updateCensoring' });
                     }catch{}
